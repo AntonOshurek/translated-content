@@ -3,7 +3,7 @@ title: PushManager.subscribe()
 slug: Web/API/PushManager/subscribe
 ---
 
-{{SeeCompatTable}}{{ApiRef("Push API")}}
+{{APIRef("Push API")}} {{SecureContext_Header}} {{AvailableInWorkers}}
 
 Метод **`subscribe()`** интерфейса {{domxref("PushManager")}} позволяет осуществлять подписку на push-уведомления.
 
@@ -70,5 +70,5 @@ navigator.serviceWorker
 
 ## Смотрите также
 
-- [Using the Push API](/ru/docs/Web/API/Push_API/Using_the_Push_API)
+- [Using the Push API](/ru/docs/Web/API/Push_API)
 - [Push Notifications on the Open Web](http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web), Matt Gaunt

@@ -3,7 +3,7 @@ title: border
 slug: Web/CSS/border
 ---
 
-{{ PreviousNext("Guía de referencia de CSS", "CSS:border-color") }}
+{{CSSRef}}{{ PreviousNext("Guía de referencia de CSS", "CSS:border-color") }}
 
 ### Propiedades Constitutivas
 
@@ -40,7 +40,7 @@ border: [border-width || border-style || border-color | inherit] ;
 
 ### Ejemplos
 
-[Ver ejemplo en vivo](/samples/cssref/border.html)
+[Ver ejemplo en vivo](https://mdn.dev/archives/media/samples/cssref/border.html)
 
 ```
 element {

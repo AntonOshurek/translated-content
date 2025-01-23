@@ -3,7 +3,7 @@ title: substring
 slug: Web/XPath/Functions/substring
 ---
 
-{{ XsltRef() }}
+{{XsltSidebar}}{{ XsltRef() }}
 
 La función `substring` devuelve una parte de una cadena dada.
 
@@ -36,7 +36,7 @@ Como en otras funciones XPath, la posición no está basada en cero. El primer c
 
 ### Definido
 
-[XPath 1.0 4.2](http://www.w3.org/TR/xpath#function-substring)
+[XPath 1.0 4.2](https://www.w3.org/TR/xpath#function-substring)
 
 ### Soporte en Gecko
 

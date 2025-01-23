@@ -2,7 +2,7 @@
 title: <absolute-size>
 slug: Web/CSS/absolute-size
 l10n:
-  sourceCommit: aeb87af1283cb24e735a00b1409b087b4ed2a0fb
+  sourceCommit: 2077d0702d038c9ccc743a53d8ad1c0c21fef5be
 ---
 
 {{CSSRef}}
@@ -74,7 +74,7 @@ HTML でフォントのサイズを設定する `size` 属性は非推奨です�
 
 ### キーワード値の比較
 
-```html
+```html live-sample___comparing_the_keyword_values
 <ul>
   <li class="xx-small">font-size: xx-small;</li>
   <li class="x-small">font-size: x-small;</li>
@@ -87,7 +87,7 @@ HTML でフォントのサイズを設定する `size` 属性は非推奨です�
 </ul>
 ```
 
-```css
+```css live-sample___comparing_the_keyword_values
 li {
   margin-bottom: 0.3em;
 }
@@ -119,7 +119,7 @@ li {
 
 #### 結果
 
-{{EmbedLiveSample('キーワード値の比較', '100%', 400)}}
+{{EmbedLiveSample('Comparing the keyword values', '100%', 400)}}
 
 ## 仕様書
 

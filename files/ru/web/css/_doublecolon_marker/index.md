@@ -18,14 +18,15 @@ slug: Web/CSS/::marker
 
 Только некоторые CSS-свойства могут быть использованы с `::marker` в качестве селектора:
 
-- Все [свойства шрифтов](/ru/docs/Web/CSS/CSS_Fonts)
+- Все [свойства шрифтов](/ru/docs/Web/CSS/CSS_fonts)
 - {{CSSxRef("white-space")}}
 - {{CSSxRef("color")}}
 - {{CSSxRef("text-combine-upright")}}, {{CSSxRef("unicode-bidi")}} и {{CSSxRef("direction")}}
 - Свойство {{CSSxRef("content")}}
-- Все [animation](/ru/docs/Web/CSS/CSS_Animations#CSS_Properties) и [transition](/ru/docs/Web/CSS/CSS_Transitions#Properties) свойства
+- Все [animation](/ru/docs/Web/CSS/CSS_animations#css_properties) и [transition](/ru/docs/Web/CSS/CSS_Transitions#Properties) свойства
 
-> **Примечание:** The specification states that additional CSS properties may be supported in future.
+> [!NOTE]
+> The specification states that additional CSS properties may be supported in future.
 
 ## Syntax
 
@@ -56,7 +57,7 @@ ul li::marker {
 
 {{EmbedLiveSample('Examples')}}
 
-## Specifications
+## Спецификации
 
 {{Specifications}}
 
@@ -64,6 +65,6 @@ ul li::marker {
 
 {{Compat}}
 
-## See also
+## Смотрите также
 
 - HTML-элементы, у которые есть маркеры списка по умолчанию: {{HTMLElement("ol")}}, {{HTMLElement("li")}}, {{HTMLElement("summary")}}

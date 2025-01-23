@@ -1,7 +1,6 @@
 ---
 title: Selectores de hermanos adyacentes
 slug: Web/CSS/Next-sibling_combinator
-original_slug: Web/CSS/Adjacent_sibling_combinator
 ---
 
 {{CSSRef}}
@@ -48,4 +47,4 @@ li:first-of-type + li {
 
 ## Ver también
 
-- [Selectores de hermanos generales](/es/docs/Web/CSS/Selectores_hermanos_generales)
+- [Selectores de hermanos generales](/es/docs/Web/CSS/Subsequent-sibling_combinator)

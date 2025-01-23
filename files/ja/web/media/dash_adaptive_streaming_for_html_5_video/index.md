@@ -3,13 +3,15 @@ title: HTML 5 ビデオ用の DASH アダプティブストリーミング
 slug: Web/Media/DASH_Adaptive_Streaming_for_HTML_5_Video
 ---
 
+{{QuickLinksWithSubpages("/ja/docs/Web/Media")}}
+
 Dynamic Adaptive Streaming over HTTP (DASH) は、アダプティブストリーミングプロトコルです。これは動画の再生を維持するためにネットワークパフォーマンスに応じてビデオストリームのビットレートを切り替えることを可能にします。
 
 ## ブラウザーの対応
 
 Firefox 21 は HTML5 WebM のための DASH の実装を含んでいますが、既定では無効になっています。これは "about:config" の "media.dash.enabled" 設定によって有効にすることができます。
 
-Firefox 23 では HTML5 WebM のための DASH は削除されました。これは [Media Source Extensions API](http://www.w3.org/TR/media-source/) の実装で置き換えられました。これは dash.js のような JavaScript ライブラリによる DASH のサポートを可能にするものです。詳しくはバグ [778617](https://bugzilla.mozilla.org/show_bug.cgi?id=778617) を見てください。
+Firefox 23 では HTML5 WebM のための DASH は削除されました。これは [Media Source Extensions API](https://www.w3.org/TR/media-source/) の実装で置き換えられました。これは dash.js のような JavaScript ライブラリによる DASH のサポートを可能にするものです。詳しくはバグ [778617](https://bugzilla.mozilla.org/show_bug.cgi?id=778617) を見てください。
 
 ## DASH の使い方 - サーバーサイド
 
@@ -96,6 +98,6 @@ ffmpeg \
 
 [WebM DASH Specification at The WebM Project](http://wiki.webmproject.org/adaptive-streaming/webm-dash-specification)
 
-[DASH Industry Forum](http://dashif.org/)
+[DASH Industry Forum](https://dashif.org/)
 
 [WebM project description of how to create DASH files with FFMPEG](http://wiki.webmproject.org/adaptive-streaming/instructions-to-playback-adaptive-webm-using-dash)

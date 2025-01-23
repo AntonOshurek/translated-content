@@ -1,7 +1,6 @@
 ---
 title: WebAssembly.compileStreaming()
 slug: WebAssembly/JavaScript_interface/compileStreaming_static
-original_slug: WebAssembly/JavaScript_interface/compileStreaming
 ---
 
 {{WebAssemblySidebar}}
@@ -25,7 +24,7 @@ Promise<WebAssembly.Module> WebAssembly.compileStreaming(source);
 
 ### Исключения
 
-- Если `bufferSource` не является [typed array](/ru/docs/Web/JavaScript/Typed_arrays), генерируется {{jsxref("TypeError")}}.
+- Если `bufferSource` не является [typed array](/ru/docs/Web/JavaScript/Guide/Typed_arrays), генерируется {{jsxref("TypeError")}}.
 - Если компиляция не удалась, промис отклоняется с помощью {{jsxref("WebAssembly.CompileError")}}.
 
 ## Примеры

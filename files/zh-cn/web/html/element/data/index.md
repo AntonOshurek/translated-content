@@ -20,8 +20,8 @@ slug: Web/HTML/Element/data
    <td><a href="/zh-CN/docs/Web/HTML/Content_categories#Phrasing_content">Phrasing content</a>.</td>
   </tr>
   <tr>
-   <th scope="row">Tag omission</th>
-   <td>{{no_tag_omission}}</td>
+   <th scope="row">标签省略</th>
+   <td>不允许，开始标签和结束标签都不能省略。</td>
   </tr>
   <tr>
    <th scope="row">Permitted parents</th>
@@ -36,7 +36,7 @@ slug: Web/HTML/Element/data
 
 ## 属性
 
-该元素支持[全局属性](/zh-CN/docs/HTML/Global_attributes)。
+该元素支持[全局属性](/zh-CN/docs/Web/HTML/Global_attributes)。
 
 - `value`
   - : 该属性指定元素内容所对应的数据，或者说“机器可读的翻译”。

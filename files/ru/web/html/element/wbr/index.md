@@ -5,21 +5,21 @@ slug: Web/HTML/Element/wbr
 
 {{HTMLSidebar}}
 
-**Элемент HTML `<wbr>`** предоставляет возможность переноса слова – позицию в тексте, где браузер может по желанию разбить строку, в противном случае его правила разрыва строки не будут создавать разрыв в этом месте.
+HTML-элемент **`<wbr>`** предоставляет возможность переноса слова – позицию в тексте, где браузер может по желанию разбить строку, в противном случае его правила разрыва строки не будут создавать разрыв в этом месте.
 
 {{EmbedInteractiveExample("pages/tabbed/wbr.html", "tabbed-shorter")}}
 
-| Категории контента    | [Основной поток](/ru/docs/Web/Guide/HTML/Content_categories#Flow_content), [фразовый контент](/ru/docs/Web/Guide/HTML/Content_categories#Phrasing_content). |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Допустимое содержимое | Отсутствует                                                                                                                                                 |
-| Пропуск тегов         | It is an {{Glossary("empty element")}}; it must have a start tag, but must not have an end tag.                                                             |
-| Допустимые родители   | Любой элемент принимающий [фразовый контент](/ru/docs/Web/Guide/HTML/Content_categories#Phrasing_content).                                                  |
-| Допустимые ARIA-роли  | Любые                                                                                                                                                       |
-| DOM-интерфейс         | {{domxref("HTMLElement")}}                                                                                                                                  |
+| Категории контента    | [Основной поток](/ru/docs/Web/HTML/Content_categories#flow_content), [фразовый контент](/ru/docs/Web/HTML/Content_categories#phrasing_content). |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Допустимое содержимое | Отсутствует                                                                                                                                     |
+| Пропуск тегов         | It is an {{Glossary("empty element")}}; it must have a start tag, but must not have an end tag.                                                 |
+| Допустимые родители   | Любой элемент принимающий [фразовый контент](/ru/docs/Web/HTML/Content_categories#phrasing_content).                                            |
+| Допустимые ARIA-роли  | Любые                                                                                                                                           |
+| DOM-интерфейс         | {{domxref("HTMLElement")}}                                                                                                                      |
 
 ## Атрибуты
 
-**Элемент может содержать только [глобальные атрибуты](/ru/docs/HTML/Global_attributes).**
+**Элемент может содержать только [глобальные атрибуты](/ru/docs/Web/HTML/Global_attributes).**
 
 ## Примечания
 
@@ -41,7 +41,7 @@ slug: Web/HTML/Element/wbr
 
 {{EmbedLiveSample("Пример")}}
 
-## Спецификация
+## Спецификации
 
 {{Specifications}}
 

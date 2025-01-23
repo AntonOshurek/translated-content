@@ -1,7 +1,6 @@
 ---
 title: General sibling selectors
 slug: Web/CSS/Subsequent-sibling_combinator
-original_slug: Web/CSS/General_sibling_combinator
 ---
 
 {{CSSRef}}
@@ -45,4 +44,4 @@ p ~ span {
 
 ## Veja mais
 
-- [Adjacent sibling selectors](/pt-BR/docs/Web/CSS/Adjacent_sibling_selectors)
+- [Adjacent sibling selectors](/pt-BR/docs/Web/CSS/Next-sibling_combinator)

@@ -1,12 +1,11 @@
 ---
 title: WebAssembly.validate()
 slug: WebAssembly/JavaScript_interface/validate_static
-original_slug: WebAssembly/JavaScript_interface/validate
 ---
 
 {{WebAssemblySidebar}}
 
-**`WebAssembly.validate()`** 関数は WebAssembly バイナリーコードの[型付き配列](/ja/docs/Web/JavaScript/Typed_arrays)を検証し、そのバイト列が有効な wasm モジュールか (`true`)、そうでないか (`false`) を返します。
+**`WebAssembly.validate()`** 関数は WebAssembly バイナリーコードの[型付き配列](/ja/docs/Web/JavaScript/Guide/Typed_arrays)を検証し、そのバイト列が有効な wasm モジュールか (`true`)、そうでないか (`false`) を返します。
 
 ## 構文
 
@@ -17,7 +16,7 @@ WebAssembly.validate(bufferSource);
 ### 引数
 
 - `bufferSource`
-  - : 検証する WebAssembly バイナリーコードを含む[型付き配列](/ja/docs/Web/JavaScript/Typed_arrays)または [`ArrayBuffer`](/ja/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)。
+  - : 検証する WebAssembly バイナリーコードを含む[型付き配列](/ja/docs/Web/JavaScript/Guide/Typed_arrays)または [`ArrayBuffer`](/ja/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)。
 
 ### 返値
 
@@ -25,7 +24,7 @@ WebAssembly.validate(bufferSource);
 
 ### 例外
 
-`bufferSource` が[型付き配列](/ja/docs/Web/JavaScript/Typed_arrays)または [`ArrayBuffer`](/ja/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) でない場合、{{jsxref("TypeError")}} が発生します。
+`bufferSource` が[型付き配列](/ja/docs/Web/JavaScript/Guide/Typed_arrays)または [`ArrayBuffer`](/ja/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) でない場合、{{jsxref("TypeError")}} が発生します。
 
 ## 例
 

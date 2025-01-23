@@ -1,8 +1,9 @@
 ---
 title: 印刷
 slug: Web/CSS/CSS_media_queries/Printing
-original_slug: Web/Guide/Printing
 ---
+
+{{CSSRef}}
 
 コンテンツを印刷するときに、ウェブサイトまたはアプリケーションで使い勝手を向上させたい場合があります。考えられるシナリオはいくつかあります。
 
@@ -27,7 +28,7 @@ original_slug: Web/Guide/Printing
 
 ブラウザーによっては (Firefox 6 以降や Internet Explorer など) コンテンツが印刷を開始することを判断できるように、 `beforeprint` および `afterprint` イベントを送信します。これを使用して、印刷中に表示されるユーザーインターフェイスを調整することができます (例えば、印刷処理中にユーザーインターフェイス要素を表示したり隠したりするなど)。
 
-> **メモ:** [`window.onbeforeprint`](/ja/docs/DOM/window.onbeforeprint) および [`window.onafterprint`](/ja/docs/DOM/window.onafterprint) を使用してこれらのイベントにハンドラーを割り当てることもできますが、 {{domxref("EventTarget.addEventListener()")}} を使用することをお勧めします。
+> **メモ:** [`window.onbeforeprint`](/ja/docs/Web/API/Window/beforeprint_event) および [`window.onafterprint`](/ja/docs/Web/API/Window/afterprint_event) を使用してこれらのイベントにハンドラーを割り当てることもできますが、 {{domxref("EventTarget.addEventListener()")}} を使用することをお勧めします。
 
 ## 例
 
@@ -35,7 +36,7 @@ original_slug: Web/Guide/Printing
 
 #### ポップアップウィンドウを開き、終了したら閉じる
 
-ユーザーがコンテンツを印刷した後に [popup window](/ja/docs/DOM/window.open) (例えば文書の印刷用など) を自動的に閉じたい場合は、次のようなコードで実現できます。
+ユーザーがコンテンツを印刷した後に [popup window](/ja/docs/Web/API/Window/open) (例えば文書の印刷用など) を自動的に閉じたい場合は、次のようなコードで実現できます。
 
 ```html
 <!doctype html>
@@ -70,11 +71,11 @@ original_slug: Web/Guide/Printing
 </html>
 ```
 
-[ライブ例を表示](/samples/domref/printevents.html)
+[ライブ例を表示](https://mdn.dev/archives/media/samples/domref/printevents.html)
 
 ### 外部ページを開かずに印刷する
 
-外部ページを開かずに印刷できるようにしたい場合は、非表示の {{HTMLElement("iframe")}} ([HTMLIFrameElement](/ja/docs/DOM/HTMLIFrameElement) を参照) を利用し、ユーザーがコンテンツを印刷した後で自動的にそれを削除するようにすることで実現できます。以下の例は、 `externalPage.html` という名前のファイルを印刷することができる例です。
+外部ページを開かずに印刷できるようにしたい場合は、非表示の {{HTMLElement("iframe")}} ([HTMLIFrameElement](/ja/docs/Web/API/HTMLIFrameElement) を参照) を利用し、ユーザーがコンテンツを印刷した後で自動的にそれを削除するようにすることで実現できます。以下の例は、 `externalPage.html` という名前のファイルを印刷することができる例です。
 
 ```html
 <!doctype html>
@@ -122,12 +123,13 @@ original_slug: Web/Guide/Printing
 </html>
 ```
 
-> **メモ:** 古いバージョン Internet Explorer は、非表示の {{HTMLElement("iframe")}} の印刷することができません。
+> [!NOTE]
+> 古いバージョン Internet Explorer は、非表示の {{HTMLElement("iframe")}} の印刷することができません。
 
 ## 関連情報
 
-- [`window.print`](/ja/docs/DOM/window.print)
-- [`window.onbeforeprint`](/ja/docs/DOM/window.onbeforeprint)
-- [`window.onafterprint`](/ja/docs/DOM/window.onafterprint)
-- [Media queries](/ja/docs/CSS/Media_queries)
+- [`window.print`](/ja/docs/Web/API/Window/print)
+- [`window.onbeforeprint`](/ja/docs/Web/API/Window/beforeprint_event)
+- [`window.onafterprint`](/ja/docs/Web/API/Window/afterprint_event)
+- [Media queries](/ja/docs/Web/CSS/CSS_media_queries)
 - {{cssxref("@media")}}

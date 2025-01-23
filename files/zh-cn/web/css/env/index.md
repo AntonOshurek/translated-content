@@ -13,10 +13,8 @@ slug: Web/CSS/env
 
 ```css
 body {
-  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(
-      safe-area-inset-bottom,
-      20px
-    ) env(safe-area-inset-left, 20px);
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+    env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
 }
 ```
 
@@ -69,10 +67,8 @@ env(safe-area-inset-left, 1.4rem);
 p {
   width: 300px;
   border: 2px solid red;
-  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px) env(
-      safe-area-inset-bottom,
-      50px
-    ) env(SAFE-AREA-INSET-LEFT, 50px);
+  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px)
+    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);
 }
 ```
 
@@ -117,4 +113,4 @@ padding: env(
 - {{CSSxRef("var", "var(…)")}}
 - [CSS Custom Properties for Cascading Variables](/zh-CN/docs/Web/CSS/CSS_cascading_variables)
 - [Custom Properties (--\*)](/zh-CN/docs/Web/CSS/--*)
-- [Using CSS custom properties (variables)](/zh-CN/docs/Web/CSS/Using_CSS_variables)
+- [Using CSS custom properties (variables)](/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)

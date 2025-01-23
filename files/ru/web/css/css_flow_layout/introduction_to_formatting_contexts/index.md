@@ -29,7 +29,7 @@ slug: Web/CSS/CSS_flow_layout/Introduction_to_formatting_contexts
 - элементы с {{cssxref("contain", "contain: layout", "#layout")}}, `content`, или `strict`
 - {{Glossary("flex item", "флекс-элементы")}};
 - грид-элементы;
-- [контейнеры мультиколонок](/ru/docs/Web/CSS/CSS_Columns/Basic_Concepts_of_Multicol);
+- [контейнеры мультиколонок](/ru/docs/Web/CSS/CSS_multicol_layout/Basic_concepts);
 - элементы с {{cssxref("column-span")}} в значении `all`.
 
 Let's have a look at a couple of these in order to see the effect creating a new BFC.
@@ -72,8 +72,8 @@ This guide covers flow layout and is therefore not referring to other possible f
 
 In this guide, we have looked in more detail at the block and Inline formatting contexts and the important subject of creating a block formatting context (BFC). In the next guide, we will find out [how normal flow interacts with different writing modes](/ru/docs/Web/CSS/CSS_Flow_Layout/Flow_Layout_and_Writing_Modes).
 
-## See also
+## Смотрите также
 
-- [Block formatting context](/ru/docs/Web/Guide/CSS/Block_formatting_context)
+- [Block formatting context](/ru/docs/Web/CSS/CSS_display/Block_formatting_context)
 - [Visual Formatting Model](/ru/docs/Web/CSS/Visual_formatting_model)
 - [CSS Box Model](/ru/docs/Web/CSS/CSS_Box_Model)

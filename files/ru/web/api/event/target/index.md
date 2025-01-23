@@ -3,7 +3,7 @@ title: Event.target
 slug: Web/API/Event/target
 ---
 
-{{ApiRef("DOM")}}
+{{APIRef("DOM")}} {{AvailableInWorkers}}
 
 Свойство **`target`** интерфейса {{domxref ("Event")}} является ссылкой на объект, который был инициатором события. Он отличается от {{domxref ("Event.currentTarget")}}, если обработчик события вызывается во время всплытия (bubbling) или захвата события.
 
@@ -52,4 +52,4 @@ ul.addEventListener('click', hide, false);
 
 ## Смотрите также
 
-- [Comparison of Event Targets](/ru/docs/Web/API/Event/Comparison_of_Event_Targets)
+- [Comparison of Event Targets](/ru/docs/Learn/JavaScript/Building_blocks/Event_bubbling)

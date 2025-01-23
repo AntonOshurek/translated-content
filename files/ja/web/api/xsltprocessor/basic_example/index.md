@@ -2,7 +2,7 @@
 title: XSLT の基本的な例
 slug: Web/API/XSLTProcessor/Basic_Example
 l10n:
-  sourceCommit: 592f6ec42e54981b6573b58ec0343c9aa8cbbda8
+  sourceCommit: 5b20f5f4265f988f80f513db0e4b35c7e0cd70dc
 ---
 
 {{APIRef("XSLT")}}
@@ -54,10 +54,11 @@ XSLT スタイルシートは、最終的な出力を生成するためのすべ
 例を試してみましょう。
 
 1. ファイルシステム上にディレクトリーを作成し、その中に上記の `example.xml` と `example.xsl` を作成します。
-2. ファイルのあるディレクトリーで[ローカルサーバーを起動](/ja/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server#running_a_simple_local_http_server)します。
+2. ファイルのあるディレクトリーで[ローカルサーバーを起動](/ja/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server#running_a_simple_local_http_server)します。
    これにより、あたかもインターネット上でホスティングされているかのように、ディレクトリー内のファイルを閲覧することができます。
 
-   > **警告:** ファイルシステムからスタイルシートを読み込むことは[オリジン間リクエスト](/ja/docs/Web/HTTP/CORS)であり、既定で許可されないためです。
+   > [!WARNING]
+   > ファイルシステムからスタイルシートを読み込むことは[オリジン間リクエスト](/ja/docs/Web/HTTP/CORS)であり、既定で許可されないためです。
    > XML とスタイルシートを同じローカルサーバーでホスティングすることで、同一のオリジンになることが保証されます。
 
 3. ブラウザーから **example.xml** を開きます。

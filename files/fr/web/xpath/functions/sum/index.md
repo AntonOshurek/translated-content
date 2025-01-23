@@ -3,7 +3,7 @@ title: sum
 slug: Web/XPath/Functions/sum
 ---
 
-{{ XsltRef() }}
+{{XsltSidebar}}{{ XsltRef() }}
 
 La fonction `sum` retourne un nombre qui est la somme des valeurs numériques de chaque nœud d'un ensemble de nœuds donné.
 
@@ -28,7 +28,7 @@ _Aucune._
 
 ### Définition
 
-[XPath 1.0, section 4.3](http://www.w3.org/TR/xpath#function-sum).
+[XPath 1.0, section 4.3](https://www.w3.org/TR/xpath#function-sum).
 
 ### Support Gecko
 

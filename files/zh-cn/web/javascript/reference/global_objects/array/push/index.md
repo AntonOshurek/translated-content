@@ -53,7 +53,7 @@ console.log(total); // 4
 
 ### 合并两个数组
 
-这个示例使用{{jsxref("Operators/Spread_syntax", "展开语法", "", "1")}}来将第二个数组的所有元素添加到第一个数组中。
+这个示例使用{{jsxref("Operators/Spread_syntax", "展开语法", "", 1)}}来将第二个数组的所有元素添加到第一个数组中。
 
 ```js
 const vegetables = ["parsnip", "potato"];
@@ -123,7 +123,7 @@ console.log(obj.length); // 2
 ## 参见
 
 - [`core-js` 中 `Array.prototype.push` 的 Polyfill，并对此方法进行了修复](https://github.com/zloirock/core-js#ecmascript-array)
-- [索引集合类](/zh-CN/docs/Web/JavaScript/Guide/Indexed_collections)
+- [索引集合](/zh-CN/docs/Web/JavaScript/Guide/Indexed_collections)
 - {{jsxref("Array")}}
 - {{jsxref("Array.prototype.pop()")}}
 - {{jsxref("Array.prototype.shift()")}}

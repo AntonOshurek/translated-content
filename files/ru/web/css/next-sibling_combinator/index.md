@@ -1,7 +1,6 @@
 ---
 title: Смежные селекторы
 slug: Web/CSS/Next-sibling_combinator
-original_slug: Web/CSS/Adjacent_sibling_combinator
 ---
 
 {{CSSRef}}
@@ -57,4 +56,4 @@ img + span.caption {
 
 ## Смотрите также
 
-- [Селекторы следующего элемента](/ru/docs/Web/CSS/General_sibling_selectors)
+- [Селекторы следующего элемента](/ru/docs/Web/CSS/Subsequent-sibling_combinator)

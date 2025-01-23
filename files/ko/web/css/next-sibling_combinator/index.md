@@ -1,7 +1,6 @@
 ---
 title: 인접 형제 결합자
 slug: Web/CSS/Next-sibling_combinator
-original_slug: Web/CSS/Adjacent_sibling_combinator
 ---
 
 {{CSSRef}}
@@ -55,4 +54,4 @@ li:first-of-type + li {
 
 ## 같이 보기
 
-- [일반 형제 결합자](/ko/docs/Web/CSS/General_sibling_combinator)
+- [일반 형제 결합자](/ko/docs/Web/CSS/Subsequent-sibling_combinator)

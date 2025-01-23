@@ -7,7 +7,7 @@ slug: Web/CSS/:read-write
 
 ## Описание
 
-CSS [псевдокласс](/ru/docs/Web/CSS/Псевдо-классы) `:read-write` находит элементы, доступные для редактирования пользователем, такие как текстовые поля.
+CSS [псевдокласс](/ru/docs/Web/CSS/Pseudo-classes) `:read-write` находит элементы, доступные для редактирования пользователем, такие как текстовые поля.
 
 ## Пример
 
@@ -28,7 +28,7 @@ input:read-write {
 
 {{Compat}}
 
-## See also
+## Смотрите также
 
 - [`:read-only`](/ru/docs/Web/CSS/:read-only)
-- HTML атрибут [`contenteditable`](/ru/docs/HTML/Content_Editable)
+- HTML атрибут [`contenteditable`](/ru/docs/Web/HTML/Global_attributes/contenteditable)

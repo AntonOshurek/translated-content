@@ -283,8 +283,8 @@ When put all together with the rest of the HTML and the CSS not shown above, it 
 
 You can {{LiveSampleLink("Example", "take a look at all the code")}}, including the parts hidden above because they aren't critical to the explanation of how the APIs are being used.
 
-## See also
+## Смотрите также
 
 - [MediaStream Recording API](/ru/docs/Web/API/MediaStream_Recording_API)
 - [Using the MediaStream Recording API](/ru/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API)
-- [Media Capture and Streams API](/ru/docs/Web/API/Media_Streams_API)
+- [Media Capture and Streams API](/ru/docs/Web/API/Media_Capture_and_Streams_API)
